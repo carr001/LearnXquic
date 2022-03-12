@@ -85,7 +85,7 @@ void xqc_engine_config_destroy(xqc_config_t *config);
 /**
  * @return > 0 : user should call xqc_engine_main_logic after N ms
  */
-xqc_usec_t xqc_engine_wakeup_after(xqc_engine_t *engine);
+xqc_usec_t xqc_engine_wakeup_after(xqc_engine_t *engine);/* is it same as  xqc_engine_wakeup_after above? so can be removed. comment by carr001*/
 
 xqc_connection_t *xqc_engine_conns_hash_find(xqc_engine_t *engine, const xqc_cid_t *cid, char type);
 
